@@ -1,0 +1,28 @@
+DROP TABLE IF EXISTS quiztable;
+--
+--CREATE TABLE quiztable (
+--  id INT AUTO_INCREMENT  PRIMARY KEY,
+--  name VARCHAR(250) NOT NULL,
+--  description VARCHAR(250) NOT NULL
+--);
+--
+--INSERT INTO quiztable (name, description) VALUES
+--  ('Aliko', 'Billionaire Industrialist'),
+--  ('Bill', 'Billionaire Tech Entrepreneur'),
+--  ('Folrunsho', 'Billionaire Oil Magnate');
+--
+--
+--DROP TABLE IF EXISTS questions;
+--
+--CREATE TABLE questions (
+--  id INT AUTO_INCREMENT  PRIMARY KEY,
+--  name VARCHAR(250) NOT NULL,
+--  options VARCHAR(250) NOT NULL,
+--  correct_option VARCHAR(250) NOT NULL,
+--  quiz INT NOT NULL,
+--  points INT NOT NULL
+--);
+--
+--ALTER TABLE questions
+--    ADD FOREIGN KEY (quiz)
+--    REFERENCES quiztable(id)
